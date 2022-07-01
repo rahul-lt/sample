@@ -13,9 +13,4 @@ test('renders learn react', () => {
   expect(linkElement).toBeInTheDocument();
 });
 
-test('renders random text', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/Angular/i);
-  expect(linkElement).toBeInTheDocument();
-});
 
