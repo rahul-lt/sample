@@ -7,7 +7,7 @@ test('renders learn react link', () => {
   expect(linkElement).toBeInTheDocument();
 });
 
-test('renders learn react', () => {
+test('renders lesarn react', () => {
   render(<App />);
   const linkElement = screen.getByText(/react/i);
   expect(linkElement).toBeInTheDocument();
