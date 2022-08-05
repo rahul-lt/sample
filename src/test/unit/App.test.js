@@ -37,5 +37,14 @@ test('renders lesarn react7122', () => {
   expect(linkElement).toBeInTheDocument();
 });
 
+test('renders lesarn react723122', () => {
+  render(<App />);
+  const linkElement = screen.getByText(/react/i);
+  expect(linkElement).toBeInTheDocument();
+});
+
+
+
+
 
 
