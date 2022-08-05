@@ -19,3 +19,10 @@ test('renders lesarn react1', () => {
   expect(linkElement).toBeInTheDocument();
 });
 
+test('renders lesarn react12', () => {
+  render(<App />);
+  const linkElement = screen.getByText(/react/i);
+  expect(linkElement).toBeInTheDocument();
+});
+
+
