@@ -61,6 +61,12 @@ test('renders lesarn 12f1232', () => {
   expect(linkElement).toBeInTheDocument();
 });
 
+test('renders lesarn 12f2311232', () => {
+  render(<App />);
+  const linkElement = screen.getByText(/react/i);
+  expect(linkElement).toBeInTheDocument();
+});
+
 
 
 
