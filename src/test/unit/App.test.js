@@ -73,6 +73,12 @@ test('renders lesa22rn 12f2311232', () => {
   expect(linkElement).toBeInTheDocument();
 });
 
+test('1212312renders lesa22rn 12f2311232', () => {
+  render(<App />);
+  const linkElement = screen.getByText(/react/i);
+  expect(linkElement).toBeInTheDocument();
+});
+
 
 
 
